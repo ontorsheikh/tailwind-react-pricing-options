@@ -23,7 +23,7 @@ const PricingCard = ({pricing}) => {
             }
             </div>
 
-            <button className="btn w-full mt-4 transition-all hover:scale-140 focus:scale-140 
+            <button className="btn w-full mt-4 transition-all hover:scale-140 focus:scale-150
             
             bg-black text-white  hover:bg-white focus:bg-white hover:text-black focus:text-black duration-[4000ms] text-white">Subscribe</button>
             
