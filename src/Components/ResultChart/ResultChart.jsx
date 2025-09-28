@@ -78,7 +78,7 @@ const resultData = [
 const ResultChart = () => {
     return (
         <div className='hover:'>
-           <LineChart width={500} height={500} data ={resultData}>
+           <LineChart width={300} md:width={500} height={500} data ={resultData}>
             <XAxis dataKey="name"></XAxis>
             <YAxis></YAxis>
             <Line dataKey="math"></Line>
