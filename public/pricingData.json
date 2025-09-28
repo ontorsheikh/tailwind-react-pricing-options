@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "price": "$20 / month",
+    "description": "Great for beginners starting their fitness journey.",
+    "features": [
+      "Access to gym equipment",
+      "Locker room access",
+      "Free drinking water",
+      "1 fitness assessment"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard",
+    "price": "$40 / month",
+    "description": "Perfect for regular gym-goers looking for extra support.",
+    "features": [
+      "Everything in Basic",
+      "Group fitness classes",
+      "1 personal training session/month",
+      "Nutrition guidance"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium",
+    "price": "$60 / month",
+    "description": "For those who want a complete fitness experience.",
+    "features": [
+      "Everything in Standard",
+      "Unlimited group classes",
+      "Weekly personal training",
+      "Body composition tracking",
+      "Sauna & steam room access"
+    ]
+  }
+]
