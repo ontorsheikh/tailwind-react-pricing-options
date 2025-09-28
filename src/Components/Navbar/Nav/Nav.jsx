@@ -40,7 +40,7 @@ const links = navLinks.map(route => <Link key={route.id} route={route}></Link>)
         <nav className='flex justify-between mx-10 mt-4'>
         <span className='flex gap-2 ' onClick={()=>setOpen(!open)}>
               { open ? <X className='md:hidden '></X> : <Menu className='md:hidden '></Menu>}
-              <ul className={`md:hidden absolute z-[3000] duration-1000 ${open ? 'top-12' : '-top-40'} p-4 bg-green-300 hover:bg-blue-500 shadow-lg transition-all hover:scale-110 text-black`}>
+              <ul className={`md:hidden absolute z-[3000] duration-1000 ${open ? 'top-12' : '-top-40'} p-4 bg-green-300 hover:bg-blue-500 focus:bg-blue-500 shadow-lg transition-all hover:scale-110 focus:scale-110 text-black`}>
                 {links}
               </ul>
                <h3>My Navbar</h3>

@@ -3,7 +3,7 @@ import PricingFeature from './PricingFeature';
 
 const PricingCard = ({pricing}) => {
     return (
-        <div className='border bg-amber-600 rounded-2xl p-4 text-white flex flex-col transition-colors hover:bg-pink-700 duration-[4000ms] animate-fade-up'>
+        <div tabIndex={0} className='border bg-amber-600 rounded-2xl p-4 text-white flex flex-col transition-colors hover:bg-pink-700 focus:bg-pink-700 duration-[4000ms] animate-fade-up'>
             {/* card header */}
             <div >
               <h1 className="text-7xl font-extrabold  header-animate ">{pricing.name}</h1>
@@ -23,7 +23,9 @@ const PricingCard = ({pricing}) => {
             }
             </div>
 
-            <button className="btn w-full mt-4 transition-all hover:scale-140 bg-black text-white hover:bg-white hover:text-black duration-[4000ms] text-white">Subscribe</button>
+            <button className="btn w-full mt-4 transition-all hover:scale-140 focus:scale-140 
+            
+            bg-black text-white  hover:bg-white focus:bg-white hover:text-black focus:text-black duration-[4000ms] text-white">Subscribe</button>
             
         </div>
     );
